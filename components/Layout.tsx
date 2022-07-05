@@ -17,9 +17,9 @@ const Layout = ({ children }: { children: ReactElement }) => {
         <Link href="/">
           <a className="font-bold">0xbe1</a>
         </Link>
-        <Link href="/writing">
+        {/* <Link href="/writing">
           <a>Writing</a>
-        </Link>
+        </Link> */}
       </div>
       <main>{children}</main>
     </div>
