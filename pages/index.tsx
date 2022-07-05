@@ -15,6 +15,7 @@ const Home: NextPage = () => {
             <a
               className="underline underline-offset-4"
               href="https://github.com/messari/subgraphs/commits?author=0xbe1"
+              target="_blank"
             >
               Messari
             </a>
@@ -22,6 +23,7 @@ const Home: NextPage = () => {
             <a
               className="underline underline-offset-4"
               href="https://github.com/moonwell-fi/moonwell-subgraph"
+              target="_blank"
             >
               Moonwell
             </a>
@@ -36,6 +38,7 @@ const Home: NextPage = () => {
             <a
               className="underline underline-offset-4"
               href="https://github.com/0xbe1/compoundv2-substreams"
+              target="_blank"
             >
               My substream work
             </a>{" "}
@@ -48,6 +51,7 @@ const Home: NextPage = () => {
             <a
               className="underline underline-offset-4"
               href="https://okgraph.xyz"
+              target="_blank"
             >
               okgraph
             </a>{" "}
@@ -55,6 +59,7 @@ const Home: NextPage = () => {
             <a
               className="underline underline-offset-4"
               href="https://miniscan.xyz"
+              target="_blank"
             >
               miniscan
             </a>{" "}

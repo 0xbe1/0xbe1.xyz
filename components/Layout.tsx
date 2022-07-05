@@ -13,13 +13,23 @@ const Layout = ({ children }: { children: ReactElement }) => {
         ></link>
       </Head>
 
-      <div className="flex items-center space-x-4 py-4">
-        <Link href="/">
-          <a className="font-bold">0xbe1</a>
-        </Link>
-        {/* <Link href="/writing">
-          <a>Writing</a>
-        </Link> */}
+      <div className="flow-root flex-row py-4">
+        <div className="float-left space-x-4">
+          <Link href="/">
+            <a className="font-bold">0xbe1</a>
+          </Link>
+          {/* <Link href="/writing">
+            <a>Writing</a>
+          </Link> */}
+        </div>
+        <div className="float-right space-x-4">
+          <a href="https://github.com/0xbe1" target="_blank">
+            GitHub
+          </a>
+          <a href="https://twitter.com/_0xbe1" target="_blank">
+            Twitter
+          </a>
+        </div>
       </div>
       <main>{children}</main>
     </div>
