@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ReactElement } from "react";
 const Layout = ({ children }: { children: ReactElement }) => {
   return (
-    <div className="max-w-3xl mx-auto">
+    <div className="max-w-3xl mx-auto p-4">
       <Head>
         <title>0xbe1.xyz</title>
         <link rel="icon" href="/favicon.ico" />
@@ -13,7 +13,7 @@ const Layout = ({ children }: { children: ReactElement }) => {
         ></link>
       </Head>
 
-      <div className="flow-root flex-row py-4">
+      <div className="flow-root flex-row">
         <div className="float-left space-x-4">
           <Link href="/">
             <a className="font-bold">0xbe1</a>

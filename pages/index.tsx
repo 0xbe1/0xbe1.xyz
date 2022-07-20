@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 const Home: NextPage = () => {
   return (
     <div className="items-center justify-center">
-      <h1 className="text-6xl font-bold my-5">👋 Hi, I am 0xbe1</h1>
+      <h1 className="text-4xl lg:text-6xl font-bold my-5">👋 Hi, I am 0xbe1</h1>
       <div className="text-xl space-y-4 my-5">
         <p>
           I build subgraphs, substreams, and toolings around{" "}
