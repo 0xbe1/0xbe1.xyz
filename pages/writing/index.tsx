@@ -9,19 +9,21 @@ interface Props {
 }
 
 export default function Writing({ posts }: Props) {
+  const publicPosts = posts.filter((p) => !p.draft);
+  if (publicPosts.length === 0) {
+    return <p className="text-lg">Coming soon!</p>;
+  }
   return (
     <div>
       <ul className="space-y-3">
-        {posts
-          .filter((p) => !p.draft)
-          .map((p) => (
-            <li key={p.slug} className="flex items-center space-x-3">
-              <span className="text-gray-500 w-1/8">{p.date}</span>
-              <Link href="/writing/[pid]" as={`/writing/${p.slug}`}>
-                {p.title}
-              </Link>
-            </li>
-          ))}
+        {publicPosts.map((p) => (
+          <li key={p.slug} className="flex items-center space-x-3">
+            <span className="text-gray-500 w-1/8">{p.date}</span>
+            <Link href="/writing/[pid]" as={`/writing/${p.slug}`}>
+              {p.title}
+            </Link>
+          </li>
+        ))}
       </ul>
     </div>
   );
