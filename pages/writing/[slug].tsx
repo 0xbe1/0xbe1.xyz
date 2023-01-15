@@ -6,6 +6,8 @@ import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
 import { ParsedUrlQuery } from "querystring";
 import { GetStaticPaths, GetStaticProps } from "next";
 import rehypeHighlight from "rehype-highlight";
+import remarkMath from 'remark-math';
+import rehypeMathjax from 'rehype-mathjax';
 
 interface Params extends ParsedUrlQuery {
   slug: string;
@@ -54,7 +56,8 @@ export const getStaticProps: GetStaticProps<Props, Params> = async (
   const { data: frontMatter, content } = matter(markdownWithMeta);
   const mdxSource = await serialize(content, {
     mdxOptions: {
-      rehypePlugins: [rehypeHighlight],
+      rehypePlugins: [rehypeHighlight, rehypeMathjax],
+      remarkPlugins: [remarkMath],
     },
   });
 
