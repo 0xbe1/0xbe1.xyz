@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 const Home: NextPage = () => {
   return (
     <div className="items-center justify-center">
-      <h1 className="text-3xl font-bold my-5">👋 Hi, I am 0xbe1</h1>
+      <h1 className="text-3xl font-bold">👋 Hi, I am 0xbe1.</h1>
       <div className="text-lg space-y-4 my-5">
         <p>
           Currently, I am leading the dev team at{" "}
@@ -13,7 +13,7 @@ const Home: NextPage = () => {
           . Prior to this, I build subgraphs at{" "}
           <a className="text-purple-600" href="https://messari.io">
             Messari
-          </a>
+          </a>{" "}
           and work on distributed systems at Twitter, Google, and several
           startups. Besides work, I enjoy hacking tools to make my and other
           devs' life easier.
