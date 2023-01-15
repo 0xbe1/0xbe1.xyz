@@ -3,7 +3,9 @@ import type { NextPage } from "next";
 const Home: NextPage = () => {
   return (
     <div className="items-center justify-center">
-      <h1 className="text-3xl font-bold">👋 Hi, I am 0xbe1.</h1>
+      <h1 className="text-3xl font-bold text-purple-600">
+        👋 Hi, I am <span className="bg-purple-600 text-white">0xbe1</span>.
+      </h1>
       <div className="text-lg space-y-4 my-5">
         <p>
           Currently, I am leading the dev team at{" "}
@@ -19,7 +21,7 @@ const Home: NextPage = () => {
           devs' life easier.
         </p>
         <p>My work include:</p>
-        <ul className="list-disc pl-5 space-y-1">
+        <ul className="marker:text-purple-600 list-disc pl-5 space-y-1">
           <li>
             🚀{" "}
             <a
