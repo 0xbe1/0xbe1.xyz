@@ -15,8 +15,8 @@ const Layout = ({ children }: { children: ReactElement }) => {
 
       <div className="flow-root flex-row">
         <div className="float-left space-x-4">
-          <Link href="/">
-            <a className="font-bold">0xbe1</a>
+          <Link href="/" className="font-bold">
+            0xbe1
           </Link>
           {/* <Link href="/writing">
             <a>Writing</a>

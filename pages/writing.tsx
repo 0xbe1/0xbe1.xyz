@@ -15,8 +15,8 @@ export default function Writing({ posts }: Props) {
         {posts.map((p) => (
           <li key={p.slug} className="flex items-center space-x-3">
             <span className="text-gray-500 w-1/8">{p.date}</span>
-            <Link href={`/writing/${p.slug}`}>
-              <a className="font-bold">{p.title}</a>
+            <Link href={`/writing/${p.slug}`} className="font-bold">
+              {p.title}
             </Link>
           </li>
         ))}
