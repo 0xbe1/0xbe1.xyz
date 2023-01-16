@@ -4,7 +4,8 @@ const Home: NextPage = () => {
   return (
     <div className="items-center justify-center">
       <h1 className="text-3xl font-bold text-purple-600">
-        👋 Hi, I am <span className="bg-purple-600 text-white">0xbe1</span>.
+        👋 Hi, I am <span className="px-1 bg-purple-600 text-white">0xbe1</span>
+        .
       </h1>
       <div className="text-lg space-y-4 my-5">
         <p>

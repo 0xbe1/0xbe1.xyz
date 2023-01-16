@@ -8,9 +8,9 @@ const Layout = ({ children }: { children: ReactElement }) => {
       <Head>
         <title>0xbe1 | A crypto dev</title>
       </Head>
-      <div className="flow-root flex-row mb-10">
+      <div className="flow-root flex-row mb-10 text-purple-600">
         <div className="float-left space-x-4">
-          <Link href="/" className="font-bold">
+          <Link href="/" className="font-bold px-1 bg-purple-600 text-white">
             0xbe1
           </Link>
           <Link href="/writing">Writing</Link>
