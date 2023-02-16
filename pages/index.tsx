@@ -9,19 +9,19 @@ const Home: NextPage = () => {
       </h1>
       <div className="text-lg space-y-4 my-5">
         <p>
-          Currently, I am leading the dev team at{" "}
+          I'm currently leading the dev team at{" "}
           <a className="text-purple-600" href="https://thala.fi">
             Thala Labs
           </a>
-          . Prior to this, I build subgraphs at{" "}
+          , where we're building DeFi primitives on the Move ecosystem. Prior to
+          this, I build subgraphs at{" "}
           <a className="text-purple-600" href="https://messari.io">
             Messari
           </a>{" "}
           and work on distributed systems at Twitter, Google, and several
-          startups. Besides work, I enjoy hacking tools to make my and other
-          devs' life easier.
+          startups.
         </p>
-        <p>My work include:</p>
+        <p>Here are some of my notable projects:</p>
         <ul className="marker:text-purple-600 list-disc pl-5 space-y-1">
           <li>
             🚀{" "}
@@ -32,7 +32,9 @@ const Home: NextPage = () => {
             >
               Thala Run
             </a>
-            : An Aptos smart contract explorer that enables URL-sharable txns.
+            : An Aptos smart contract explorer that makes it easier for
+            developers to collaborate and share their transaction payloads
+            through URLs.
           </li>
           <li>
             📈{" "}
@@ -80,11 +82,13 @@ const Home: NextPage = () => {
             >
               okgraph
             </a>
-            : A subgraph status monitor.
+            : A subgraph status monitor that helps developers stay on top of any
+            issues that arise.
           </li>
         </ul>
         <p>
-          Feel free to reach out on{" "}
+          If you'd like to connect with me and learn more about my work, feel
+          free to reach out on{" "}
           <a
             className="underline underline-offset-4"
             href="https://twitter.com/_0xbe1"
