@@ -77,7 +77,10 @@ const Home: NextPage = () => {
         <p>Writings</p>
         <ul className="list-disc pl-5">
           <li>
-            <a href="https://thalalabs.medium.com/building-a-data-driven-thala-using-sentio-ddc850276af">
+            <a
+              href="https://thalalabs.medium.com/building-a-data-driven-thala-using-sentio-ddc850276af"
+              target="_blank"
+            >
               Building a data-driven Thala using Sentio
             </a>
           </li>
