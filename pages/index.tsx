@@ -9,94 +9,79 @@ const Home: NextPage = () => {
       </h1>
       <div className="text-lg space-y-4 my-5">
         <p>
-          I'm currently leading the dev team at{" "}
-          <a className="text-purple-600" href="https://thala.fi">
+          I'm leading the dev team at{" "}
+          <a href="https://x.com/ThalaLabs" target="_blank">
             Thala Labs
-          </a>
-          , where we're building DeFi primitives on the Move ecosystem. Prior to
-          this, I build subgraphs at{" "}
-          <a className="text-purple-600" href="https://messari.io">
-            Messari
           </a>{" "}
-          and work on distributed systems at Twitter, Google, and several
-          startups.
+          ($30M peak TVL, #1 on Aptos). Prior to this, I worked at Messari,
+          Twitter, Google, and several startups.
         </p>
-        <p>Here are some of my notable projects:</p>
-        <ul className="marker:text-purple-600 list-disc pl-5 space-y-1">
+        <p>Work</p>
+        <ul className="list-disc pl-5">
           <li>
-            🚀{" "}
-            <a
-              className="underline underline-offset-4"
-              href="https://run.thala.dev"
-              target="_blank"
-            >
-              Thala Run
+            <a href="https://app.thala.fi" target="_blank">
+              Thala
             </a>
-            : An Aptos smart contract explorer that makes it easier for
-            developers to collaborate and share their transaction payloads
-            through URLs.
+            : Aptos DeFi HyperApp that includes a stablecoin, an AMM, a
+            launchpad, a governance platform, and more.
           </li>
           <li>
-            📈{" "}
             <a
-              className="underline underline-offset-4"
               href="https://github.com/messari/subgraphs/commits?author=0xbe1"
               target="_blank"
             >
               Messari Subgraphs
             </a>
-            : Index and standardize blockchain data with The Graph.
+            : Index and standardize protocol data with The Graph.
           </li>
+        </ul>
+        <p>OSS</p>
+        <ul className="list-disc pl-5">
           <li>
-            📈{" "}
             <a
-              className="underline underline-offset-4"
-              href="https://github.com/moonwell-fi/moonwell-subgraph"
+              href="https://github.com/aptos-labs/aptos-core/commits?author=0xbe1"
               target="_blank"
             >
-              Moonwell Subgraph
+              aptos-labs/aptos-core
             </a>
-            : Power{" "}
-            <a className="text-purple-600" href="https://moonwell.fi">
-              Moonwell
-            </a>{" "}
-            dapp with The Graph.
+            : Small improvements on Aptos framework.
           </li>
           <li>
-            🔍{" "}
             <a
-              className="underline underline-offset-4"
-              href="https://miniscan.xyz"
+              href="https://github.com/aptos-labs/explorer/commits?author=0xbe1"
               target="_blank"
             >
+              aptos-labs/explorer
+            </a>
+            : Added read/write contract features to Aptos explorer.
+          </li>
+          <li>
+            <a href="https://run.thala.dev" target="_blank">
+              thala.run
+            </a>
+            : Aptos contract explorer that works.
+          </li>
+          <li>
+            <a href="https://miniscan.xyz" target="_blank">
               miniscan
             </a>
             : Think Etherscan, but 10x simpler and supports 10+ chains.
           </li>
           <li>
-            🚧{" "}
-            <a
-              className="underline underline-offset-4"
-              href="https://okgraph.xyz"
-              target="_blank"
-            >
+            <a href="https://okgraph.xyz" target="_blank">
               okgraph
             </a>
-            : A subgraph status monitor that helps developers stay on top of any
-            issues that arise.
+            : A subgraph status monitor.
           </li>
         </ul>
-        <p>
-          If you'd like to connect with me and learn more about my work, feel
-          free to reach out on{" "}
-          <a
-            className="underline underline-offset-4"
-            href="https://twitter.com/_0xbe1"
-          >
-            Twitter
-          </a>
-          .
-        </p>
+        <p>Writings</p>
+        <ul className="list-disc pl-5">
+          <li>
+            <a href="https://thalalabs.medium.com/building-a-data-driven-thala-using-sentio-ddc850276af">
+              Building a data-driven Thala using Sentio
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );

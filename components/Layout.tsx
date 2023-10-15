@@ -13,13 +13,13 @@ const Layout = ({ children }: { children: ReactElement }) => {
           <Link href="/" className="font-bold px-1 bg-purple-600 text-white">
             0xbe1
           </Link>
-          <Link href="/writing">Writing</Link>
+          {/* <Link href="/writing">Writing</Link> */}
         </div>
         <div className="float-right space-x-4">
           <a href="https://github.com/0xbe1" target="_blank">
             GitHub
           </a>
-          <a href="https://twitter.com/_0xbe1" target="_blank">
+          <a href="https://x.com/_0xbe1" target="_blank">
             Twitter
           </a>
         </div>
