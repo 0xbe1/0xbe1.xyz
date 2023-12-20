@@ -13,7 +13,7 @@ const Home: NextPage = () => {
           <a href="https://x.com/ThalaLabs" target="_blank">
             Thala Labs
           </a>{" "}
-          ($30M peak TVL, #1 on Aptos). Prior to this, I worked at Messari,
+          ($59M peak TVL, #1 on Aptos). Prior to this, I worked at Messari,
           Twitter, Google, and several startups.
         </p>
         <p>Work</p>
