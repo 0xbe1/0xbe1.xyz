@@ -22,7 +22,7 @@ const Home: NextPage = () => {
             <a href="https://app.thala.fi" target="_blank">
               Thala
             </a>
-            : Aptos DeFi HyperApp that includes a stablecoin, an AMM, a
+            : Aptos DeFi HyperApp that includes a stablecoin, an AMM, a LSD, a
             launchpad, a governance platform, and more.
           </li>
           <li>
