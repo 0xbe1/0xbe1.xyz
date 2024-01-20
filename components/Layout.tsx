@@ -20,7 +20,7 @@ const Layout = ({ children }: { children: ReactElement }) => {
             GitHub
           </a>
           <a href="https://x.com/_0xbe1" target="_blank">
-            Twitter
+            X
           </a>
         </div>
       </div>
